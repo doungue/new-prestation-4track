@@ -1,0 +1,104 @@
+<?php
+require('connection.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style12.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class='container-header'>
+            <div class='details'> 
+              <h3>(+237691041322)</h3>
+              <h3>4tec@gmail.com</h3>
+            </div>
+            <div class='details'>
+               <h3>(+237691041322)</h3>
+               <h3>(+237691041322)</h3>
+            </div>
+        </div> 
+
+        <div class='container-navbar'>
+            <div class='details'>
+                <img src="img/log.png" class="logo" alt=''/>
+            </div>
+            <div class='details'>
+                <ul>
+                    
+                       <a href="Acceuille.php" class="a"> <li>Acceuille</li></a>
+                       <a href="Service.php" class="a"> <li>Service</li></a>
+                        </ul>
+            </div>
+        </div>
+
+        <div class='container-logine'>
+        <div class='login-titre'>
+          <ul class='ul'>
+            <a href="Connexion.php" class="a" >
+              <li>
+              <span>Register</span>
+              </li>
+            </a>
+            <h3 class='tiret'>|</h3>
+            <a href="Login.php" class='a' >
+              <li>
+              <span>Login</span>
+              </li>
+             </a>
+          </ul>
+        </div>
+
+        <div class='logine'>
+        <h1>Signup Form</h1>
+        <form action="enregistre.php" method="POST">
+        <div class="mb-3">
+          <label class="form-label">pp</label>
+          <input type="file" class="form-control" name="pp" Required>
+      </div>
+      <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" name="username" Required>
+      </div>
+      <div class="mb-3">
+          <label class="form-label">telephone</label>
+          <input type="text" class="form-control" name="telephone" Required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" Required>
+    </div>
+    <div class="mb-3">
+    <button type="submit" class="btn btn-primary">Sign up</button>  
+
+    </div>
+</form>
+         </div>   
+        </div>
+
+
+        <!-- Footer  -->
+
+        <div class='container-footer'>
+            <div class='footer-details'>
+                <h1 class='titre'>Apropos</h1>
+                <h2 class='blog'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero ipsa molestiae. Enim doloribus officiis rem et alias. Alias impedit similique placeat voluptates eius quam asperiores, sequi laboriosam velit voluptate.</h2>
+            </div>
+            <div class='footer-details'>
+            <h1 class='titre'>Service</h1>
+            <h2 class='blog'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero ipsa molestiae. Enim doloribus officiis rem et alias. Alias impedit similique placeat voluptates eius quam asperiores, sequi laboriosam velit voluptate.</h2>
+            </div>
+            <div class='footer-details'>
+            <h1 class='titre'>Contact</h1>
+            <h2 class='blog'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero ipsa molestiae. Enim doloribus officiis rem et alias. Alias impedit similique placeat voluptates eius quam asperiores, sequi laboriosam velit voluptate.</h2>
+            </div>
+        </div>
+</body>
+</html>
